@@ -1,7 +1,9 @@
 #include<stdio.h>
+#include<conio.h>
 void main()
 {
  int fact =1,num,i;
+ clrscr();
  printf("enter the number:\n");
  scanf("%d",&num);
 for(i=1;i<=num;i++){
