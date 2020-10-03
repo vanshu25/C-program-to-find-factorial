@@ -2,12 +2,17 @@
 #include<conio.h>
 void main()
 {
+
+ int num,i;
+ long fact =1;
+
  int fact =1,num,i;
  clrscr();
+
  printf("enter the number:\n");
  scanf("%d",&num);
 for(i=1;i<=num;i++){
     fact = fact*i;
 }
- printf("factorial of %d : %d",num,fact);
+ printf("factorial of %d : %ld",num,fact);
 }
